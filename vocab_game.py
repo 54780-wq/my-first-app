@@ -96,4 +96,4 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2)
 
 st.divider()
-  st.write("ณฐพัฒน์ ไชยพานิชย์ เลขที่ 34 ม.4/3")
+st.write("ณฐพัฒน์ ไชยพานิชย์ เลขที่ 34 ม.4/3")
