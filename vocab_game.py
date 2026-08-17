@@ -28,14 +28,14 @@ def show_result_dialog(ans1, ans2):
     u_ans2 = ans2.strip().lower()
 
     
-    if u_ans1 == "apple":
+    if u_ans1 == "Banana":
         st.success("✅ ข้อ 1: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 1: ยังไม่ถูกต้อง (คุณตอบ '{u_ans1}')")
 
     
-    if u_ans2 == "fish":
+    if u_ans2 == "Ruler":
         st.success("✅ ข้อ 2: ถูกต้อง")
         score += 1
     else:
@@ -68,11 +68,12 @@ st.divider()
 
 
 ans1 = st.text_input(
-    "ข้อ 1: An `a _ _ l e` a day keeps the doctor away. 🍎",
+    "ข้อ 1: A `B _ n _ n _` 
+    =กล้วย",
     value=st.session_state.ans1_val,
 )
 ans2 = st.text_input(
-    "ข้อ 2: Cats love to eat `f _ s h`. 🐟",
+    "ข้อ 2: study use `Ru _ _ r`. 📏 ",
     value=st.session_state.ans2_val,
 )
 
