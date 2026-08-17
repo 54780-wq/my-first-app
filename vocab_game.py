@@ -68,7 +68,7 @@ st.divider()
 
 
 ans1 = st.text_input(
-    "ข้อ 1: A `B _ n _ n _` 
+    "ข้อ 1: A `B _ n _ n _` . 🍌 ", 
     =กล้วย",
     value=st.session_state.ans1_val,
 )
